@@ -18,7 +18,7 @@ module.exports = function (grunt) {
           only_closure_dependencies: "",
           closure_entry_point: "closuretest.module",
           warning_level: "verbose",
-          output_wrapper: "';(function(window,undefined){\"use strict\";%output%}).call(this);'"
+          output_wrapper: ';(function(window,undefined){%output%}).call(this);'
         },
         d32: false,
         TieredCompilation: true
